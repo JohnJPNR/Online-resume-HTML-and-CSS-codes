@@ -1,0 +1,162 @@
+Online Resume HTML CODE
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;500;700&display=swap" rel="stylesheet">
+<!-- Font Awesome(Icons)-->
+  
+    <script
+      src="https://kit.fontawesome.com/fd7d3c4deb.js"
+      crossorigin="anonymous">
+    </script>
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.CSS">
+
+    <title>Resume Of John</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="head">
+        <div class="header-left">
+          <div class="name">
+            <h1 class="first-name">JOHN PRINCETON</h1>
+            <h1 class="last-name">NIRMAL RAJ</h1>
+          </div>
+          <div class="header-right">
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <p>johnprinceton5522@gmail.com</p>
+          </div>
+          <div class="phone">
+            <i class="fas fa-phone-alt"></i>
+            <p>9488919007</p>
+          </div>
+          <div class="linledin">
+             f
+            <p><a href="https://www.linkedin.com/in/john-princeton-nirmal-raj-a-a82964180/detail/contact-info/">LinkedIn</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="objective">
+      <div class="obj-head grey">
+        
+        <h2><i class="fas fa-bullseye"></i>Objective</h2>
+      </div>
+      <p>A highly motivated, easily adaptable and responsible Electronic and Communication Engineering graduate looking to associate with an organization that promises a creative career in progressive environment to enhance my knowledge and skills in the state of new technology and be a part of the team that excels in work towards the growth of organization. Able to work on own initiative and as part of a team with interpersonal and communication skills.</p>
+    </div>
+    <div class="education">
+      <div class="education-head grey">
+        <h2><i class="fas fa-graduation-cap"></i>Education</h2>
+      </div>
+      <table>
+        <tr>
+          <th>S.no</th>
+          <th>Board of education</th>
+          <th>Institution</th>
+          <th>Year of passing</th>
+          <th>Percentage</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <th>Christ the king engineering college</th>
+          <th>B.E(ECE)</th>
+          <th>2020</th>
+          <th>70%</th>
+        </tr>
+        <tr>
+          <th>2</th>
+          <th>Vijayalakshmi matriculation higher secondary school</th>
+          <th>HSC</th>
+          <th>2016</th>
+          <th>86.7%</th>
+        </tr>
+        <tr>
+          <th>3</th>
+          <th>Metro matriculation higher secondary school</th>
+          <th>SSLC</th>
+          <th>2014</th>
+          <th>90.2%</th>
+        </tr>
+      </table>
+    </div>
+    <div class="skills">
+      <div class="skills-head grey">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <h2>Skills</h2>
+      </div>
+      <ul>
+        <li>HTML5</li><li>CSS</li><li>Python</li><li>C++</li>
+      </ul>
+    </div>
+    <div class="acheivements">
+      <div class="acheivement-head grey">
+        
+        <h2><i class="fas fa-trophy"></i>Acheivement</h2>
+      </div>
+      <ul>
+        <li>6TH Place in National robotic event held at IIT, Guwahati</li>
+        <li>1st place in (IETE) 2nd National level under graduate research conference</li>
+        <li>Android app development workshop at IIT, Mumbai</li>
+        <li>1st Place in project expo held atDr.NGP Institute of technology</li>
+        <li>Participated in National science & technology fair 2019(CODISSIA)</li>
+      </ul>
+    </div>
+    </body>
+</html>
+
+
+
+
+/*  CSS Codes
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: "Antonio", sans-serif;
+}
+h1 {
+  margin: 0;
+  font-weight: 400;
+  display: inline;
+}
+h2 {
+  margin: 0;
+  font-weight: 400;
+  display: inline;
+}
+.box {
+  background: white;
+  margin: 2rem;
+  padding: 3rem;
+  width: 70rem;
+  border-radius: 0.5rem;
+}
+.grey {
+  background: grey;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+table {
+  border: 2px solid;
+  margin: 1rem;
+  width: 65rem;
+  text-align: center;
+}
+
+
+
